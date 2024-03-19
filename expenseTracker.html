@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expenseTracker.css">
+</head>
+<body>
+    <div>
+        <h1 class="centered">Expense Tracker</h1>
+    </div>
+    <hr>
+    <h2 class="centered">Enter Expenses</h2>
+    <form onsubmit="addExpenses(event)">
+        <label for="amount">Enter Amount : </label>
+            <input type="number" name="amount" id="amount"> <br>
+        <label for="description">Enter Description : </label>
+            <input type="text" name="description" id="description"><br>
+        <label for="category">Enter Category : </label>
+            <select name="category" id="category">
+                <option hidden selected></option>
+                <option value="Movie">Movie</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Travel">Travel</option>
+                <option value="Rent">Rent</option>
+                <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+        <input type="hidden" id="id" name="id" value=""><br>
+        <button type="submit" name="button" id="form-button">Add Expense</button>
+    </form>
+    <br><hr>
+    <h3>Expenses :</h3>
+    <ul id="list">
+
+    </ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="expenseTracker.js"></script>
+</html>

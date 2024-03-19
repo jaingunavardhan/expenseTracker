@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(193, 255, 123);
+}
+.centered{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+}
+
+#form-button{
+    margin:10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: blue;
+    border-color: blue;
+}
+#form-button:hover,
+#form-button:active{
+    color: white;
+    background-color: blue;
+}
+
+button{
+    color: maroon;
+    border-color: maroon;
+    border-radius: 5px;
+    margin: 3px;
+    background-color: inherit;    
+}
+button:hover,
+button:active{
+    color: white;
+    background-color: maroon;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+h3{
+    margin-left: 25px;
+    color: red;
+}
+
+label{
+    color: blue;
+}
+
+#list{
+    color:maroon;
+}
+
+li{
+    margin: 3px;
+}
+
+hr{
+    margin: 0;
+}
