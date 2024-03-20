@@ -11,6 +11,16 @@ form{
 
 input{
     margin: 5px;
+    background-color: inherit;
+    border-color: blue;
+    border-radius: 3px;
+    color: maroon;
+}
+select{
+    background-color: inherit;
+    border-color: blue;
+    border-radius: 3px;
+    color: maroon;
 }
 
 #form-button{
